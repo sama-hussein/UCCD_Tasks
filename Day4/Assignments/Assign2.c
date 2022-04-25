@@ -14,6 +14,10 @@ int decr(int a);
 
 int main() {
 	int id,a,b;
+	
+	printf("Enter ID: ");
+	scanf(" %d",&id);
+	
 	if(id != 9 && id != 10){
 		printf("Enter number 1: ");
 		scanf(" %d",&a);
